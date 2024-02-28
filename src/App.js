@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+const avatar = "https://i.imgur.com/7vQD0fPs.jpg";
+
+const today = new Date();
+
+function formatDate(date) {
+  return new Intl.DateTimeFormat("en-US", { weekday: "long" }).format(date);
+}
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+  return  <>
+
+
+  <div style={{padding: 30, margin: 30, backgroundColor: 'aqua'}}>
+    <h1>Danh Sách Công Việc Cho Ngày {formatDate(today)}</h1>
+  </div>
+
+  {/* có thể import trực tiếp */}
+  {/* <img
+      className="avatar"
+      src="https://i.imgur.com/7vQD0fPs.jpg"
+      alt="Gregorio Y. Zara"
+    /> */}
+   <img className="avatar" src={avatar} alt="..."/>
+  </>
+  
 }
 
 export default App;
