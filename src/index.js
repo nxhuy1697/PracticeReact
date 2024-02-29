@@ -4,9 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import AgeChecker from './components/AgeChecker';
-import GroceryList from './components/GroceryList';
-import Form from './components/Form';
+// import AgeChecker from './components/AgeChecker';
+// import GroceryList from './components/GroceryList';
+// import Form from './components/Form';
 // import Comp1 from './components/Comp1';
 // import Profile from './props/Profile';
 // import ExampleComponent from './props/ExampleComponent';
@@ -16,16 +16,16 @@ import Form from './components/Form';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
 
     {/* <Comp1 /> */}
     {/* <Profile /> */}
     {/* <ExampleComponent /> */}
     {/* <Lifecycle/> */}
     {/* <Counter /> */}
-    <AgeChecker/>
+    {/* <AgeChecker/>
     <GroceryList />
-    <Form />
+    <Form /> */}
     
   </React.StrictMode>
 );
