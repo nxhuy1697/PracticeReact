@@ -3,21 +3,30 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import AgeChecker from './components/AgeChecker';
+import GroceryList from './components/GroceryList';
+import Form from './components/Form';
 // import Comp1 from './components/Comp1';
 // import Profile from './props/Profile';
 // import ExampleComponent from './props/ExampleComponent';
-import Lifecycle from './props/Lifecycle';
-import Counter from './state/State';
+// import Lifecycle from './props/Lifecycle';
+// import Counter from './state/State';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+
     {/* <Comp1 /> */}
     {/* <Profile /> */}
     {/* <ExampleComponent /> */}
-    <Lifecycle/>
-    <Counter />
+    {/* <Lifecycle/> */}
+    {/* <Counter /> */}
+    <AgeChecker/>
+    <GroceryList />
+    <Form />
+    
   </React.StrictMode>
 );
 

@@ -1,6 +1,6 @@
 
 
-const avatar = "https://i.imgur.com/7vQD0fPs.jpg";
+const avatar = "https://i.pinimg.com/236x/56/71/6e/56716e1a5fd96adf1609bbdd24436ab6.jpg";
 
 const today = new Date();
 
