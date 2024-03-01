@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Blog from "./pages/Blog";
+import Contact from "./pages/Contact";
+import Layout from "./pages/Layout";
+import Home from './pages/Home';
 // import AgeChecker from './components/AgeChecker';
 // import GroceryList from './components/GroceryList';
 // import Form from './components/Form';
@@ -16,17 +20,15 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+  <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
 
-    {/* <Comp1 /> */}
-    {/* <Profile /> */}
-    {/* <ExampleComponent /> */}
-    {/* <Lifecycle/> */}
-    {/* <Counter /> */}
-    {/* <AgeChecker/>
-    <GroceryList />
-    <Form /> */}
-    
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/layout" element={<Layout />} />
+        <Route path="/blog" element={<Blog />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Blog() {
   return (
-    <div>
-        this is blog
+    <div style={{padding: 30}} >
+       <p>Blog</p>
     </div>
   )
 }

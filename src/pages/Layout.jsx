@@ -5,8 +5,7 @@ export default function Layout() {
   return (
     <div>
 
-        <AgeChecker />
-        
+     <p>nothing</p>
     </div>
   )
 }
