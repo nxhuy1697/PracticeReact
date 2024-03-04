@@ -1,11 +1,14 @@
 import React from 'react'
-import AgeChecker from '../components/AgeChecker';
+import Header from '../components/Header'
+import UseEffecto from '../components/UseEffecto'
+
 
 export default function Layout() {
   return (
     <div>
-
-     <p>nothing</p>
+      <Header />
+      <h1 style={{padding: 30}}>Thực hành useEffect</h1>
+      <UseEffecto />
     </div>
   )
 }
