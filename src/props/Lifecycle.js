@@ -2,6 +2,7 @@ import { useState } from "react";
 import Messege from "./Messege";
 
 function Lifecycle (){
+    //Mount và unmount
 
     const [show, setShow] = useState(false)
 

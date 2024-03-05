@@ -6,8 +6,6 @@ class Counter extends Component {
     this.state = {
       count: 0
     };
-
-
   }
 
   incrementCount = () => {
