@@ -7,6 +7,7 @@ import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Layout from "./pages/Layout";
 import Home from './pages/Home';
+import Todo from './pages/Todo';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
         <Route path="/contact" element={<Contact />} />
         <Route path="/layout" element={<Layout />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/todo" element={<Todo />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

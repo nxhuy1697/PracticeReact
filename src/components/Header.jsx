@@ -23,6 +23,7 @@ export default function Header() {
             <a href="/contact">Contacts</a>
 
             <a href="/layout">Layout</a>
+            <a href="/todo">Todo</a>
 
         </div>
       </div>
